@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<!-- saved from url=(0014)about:internet -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>full stack</title>
+</head>
+
+<body>
+    <h1>Front end technologies</h1>
+    <a href="https://en.wikipedia.org/wiki/HTML"><br>
+        <img src="./task1 output_files/html.png" alt="html" width="200">download</a>
+    <a href="https://en.wikipedia.org/wiki/CSS">
+        <img src="./task1 output_files/css.png" alt="css" width="200">download</a>
+    <a href="https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)">
+        <img src="./task1 output_files/bootstrap.jpg" alt="bootstrap" width="150">download</a>
+    <a href="https://en.wikipedia.org/wiki/React_(JavaScript_library)">
+        <img src="./task1 output_files/react.png" alt="react" width="150">download</a>
+    <a href="https://en.wikipedia.org/wiki/Angular_(web_framework)">
+        <img src="./task1 output_files/angular.png" alt="angular" width="150">download</a>
+    <h1>Backend technologies</h1>
+    <a href="https://en.wikipedia.org/wiki/Java_(programming_language)"><br>
+    <img src="./task1 output_files/java.jpg" alt="java" width="200">download</a>
+    <a href="https://en.wikipedia.org/wiki/Python_(programming_language)">
+        <img src="./task1 output_files/python.jpg" alt="python" width="200">download</a>
+     <a href="https://en.wikipedia.org/wiki/C%2B%2B">
+            <img src="./task1 output_files/c++.png" width="200">download</a>
+            <a href="https://en.wikipedia.org/wiki/Node.js">
+                <img src="./task1 output_files/node js.png" width="200">download</a>
+                <a href="https://en.wikipedia.org/wiki/C_(programming_language)">
+                    <img src="./task1 output_files/c.jpg" width="200">download</a>
+        
+
+
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+</body></html>
